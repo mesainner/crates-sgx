@@ -111,6 +111,11 @@ git = "https://github.com/mesalock-linux/http-sgx"
 branch = "master"
 replace-with = "vendored-sources"
 
+[source."https://github.com/mesalock-linux/http_req-sgx"]
+git = "https://github.com/mesalock-linux/http_req-sgx"
+branch = "master"
+replace-with = "vendored-sources"
+
 [source."https://github.com/mesalock-linux/humantime-sgx"]
 git = "https://github.com/mesalock-linux/humantime-sgx"
 branch = "master"
@@ -353,7 +358,7 @@ replace-with = "vendored-sources"
 
 [source."https://github.com/mesalock-linux/rustls"]
 git = "https://github.com/mesalock-linux/rustls"
-branch = "mesalock_sgx-client-cert-verifier-patch"
+branch = "mesalock_sgx"
 replace-with = "vendored-sources"
 
 [source."https://github.com/mesalock-linux/rusty-machine-sgx"]
@@ -413,6 +418,11 @@ replace-with = "vendored-sources"
 
 [source."https://github.com/mesalock-linux/typetag-sgx"]
 git = "https://github.com/mesalock-linux/typetag-sgx"
+branch = "master"
+replace-with = "vendored-sources"
+
+[source."https://github.com/mesalock-linux/unicase-sgx"]
+git = "https://github.com/mesalock-linux/unicase-sgx"
 branch = "master"
 replace-with = "vendored-sources"
 
